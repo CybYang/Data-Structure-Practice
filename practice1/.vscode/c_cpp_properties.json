@@ -1,0 +1,16 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Win-MinGW (or Linux)",
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/src"
+      ],
+      "compilerPath": "g++",      // 或者 g++ 的完整路径，比如 "C:/mingw64/bin/g++.exe"
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64"  // Linux 就用 "linux-gcc-x64"
+    }
+  ]
+}
