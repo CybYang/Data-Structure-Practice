@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<stack>
 using namespace std;
 
 template<typename T>
@@ -15,7 +17,7 @@ public:
 private:
     Node* root_=nullptr;
     size_t sz_=0;
-
+    
 public:
     BinaryTree()=default;
 
